@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.98.0">
+  <title>NG - VIAGENS</title>
+  <!--Exemplo Utilizado -->
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+  </style>
+
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-nav-purple borda-topo-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand font-marca" href="index.html"><sup>NG</sup><sub>VIAGENS</sub></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link " href="destinos.html">Destinos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pacotes.html">Pacotes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="promocoes.html">Promoções</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- START THE FEATURETTES -->
+  <div class="container marketing">
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+
+      <h1 class="display-4 fw-normal">Destinos</h1>
+    </div>
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Florianópolis <span class="text-muted"> - SC</span></h2>
+        <p class="lead">Florianópolis, a capital do estado de Santa Catarina no sul do Brasil.
+          É famosa pelas suas praias, incluindo estâncias turísticas populares como a Praia dos Ingleses
+          na extremidade norte da ilha.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="img/buzios500x500.jpg"
+          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"
+          role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">Florianópolis</text>
+        </svg>
+
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Búzios <span class="text-muted"> - RJ</span></h2>
+        <p class="lead">
+          Armação dos Búzios (ou Búzios), é uma estância brasileira situada numa península oceânica a este do
+          Rio de Janeiro.
+          É conhecida como um sofisticado destino de férias com inúmeras praias.
+        </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="img/florianopolis500x500.jpg"
+          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"
+          role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">Búzios</text>
+        </svg>
+
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Salvador <span class="text-muted">- BA</span>
+        </h2>
+        <p class="lead">Salvador, a capital do estado da Bahia no nordeste do Brasil,
+          é conhecida pela arquitetura colonial portuguesa, pela cultura afrobrasileira e pelo litoral
+          tropical.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="img/salvador500x500.jpg"
+          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"
+          role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">Salvador</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+  </div>
+  </main>
+  <hr class="featurette-divider">
+  <!-- FOOTER -->
+  <footer class="container-fluid bg-footer">
+    <p class="float-end"></p>
+    <p class=" footer-align">&copy; 2022 - NG VIAGENS </p>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

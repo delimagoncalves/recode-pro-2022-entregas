@@ -1,0 +1,27 @@
+.bg-nav-purple{
+    background-color: #342c4c;
+}
+
+.bg-form-contato {
+    background-color: #f5c287;
+}
+
+.font-marca{
+    font-weight: bold;
+    color:#f5c287;
+    font-size: 1.6em;
+}
+
+.borda-topo-nav{
+    border-bottom: 4px solid #f5c287;
+}
+
+.form-contato{
+    justify-content: center;
+    display: flex;
+    
+}
+
+.footer-align{
+    text-align: center;
+}
